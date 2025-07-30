@@ -89,6 +89,6 @@ From interactive blog features to a contact form, every section is crafted with 
 ## Contact ☎️
 Got feedback or want to connect?
 
-- Email: [your.email@example.com]
-- LinkedIn: [your LinkedIn]
-- GitHub: [https://github.com/SalmanHussain13]
+- Email: [salmanhussain6999@gmail.com]
+- LinkedIn: [https://www.linkedin.com/in/salman-hussain-46a7a832a/]
+- GitHub: [https://github.com/SalmanHussain13](https://github.com/SalmanHussain2006)]
