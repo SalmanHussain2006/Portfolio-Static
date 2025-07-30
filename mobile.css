@@ -1,0 +1,306 @@
+@media screen and (max-width: 768px) {
+
+    main {
+        background-color: #0e1124;
+        color: white;
+    }
+    /* Media query for header */
+    .top {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .top h1 {
+        margin: 1rem 0;
+        font-size: 2.8rem;
+        margin-left: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin: 1rem 0;
+        font-size: 1.6rem;
+        padding: 0;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        width: 100%;
+        font-size: 1.6rem;
+    }
+
+    /* Media query for about section */
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+
+    .container h1 {
+        font-size: 2.4rem;
+        margin: 1.2rem 0;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    .container p,
+    .container ul li {
+        font-size: 1.6rem;
+        margin: 1rem;
+        line-height: 2.8rem;
+        text-align: center;
+    }
+
+    .sidebar {
+        width: 100%;
+        max-width: 100%;
+        margin-top: 2rem;
+        border-radius: 1rem;
+        overflow-x: hidden;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .sidebar nav ul {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .profile img {
+        width: 80%;
+        height: auto;
+        max-width: 15em;
+    }
+
+    .profile figcaption {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 1rem;
+        gap: 2rem;
+    }
+
+    /* Media query for blog posts */
+
+    .posts-container {
+        width: 100%;
+        max-width: 100%;
+        margin: 1rem auto;
+        padding: 1.5rem;
+        border-radius: 1rem;
+    }
+
+    .blog-post {
+        width: 100%;
+        padding: 1rem;
+        box-shadow: 0 0 0.5em rgba(0,0,0,0.1);
+        border-radius: 1rem;
+        word-wrap: break-word;
+        margin-bottom: 2rem;
+    }
+
+    .blog .post-header {
+        margin-bottom: 2rem;
+    }
+
+    .post-header {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .filter-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background-color: #1a1a2e;
+        border-radius: 1rem;
+        width: 100%;
+    }
+
+    .filter-form label,
+    .filter-form select,
+    .filter-form button {
+        font-size: 1.4rem;
+        width: 100%;
+        max-width: 15em;
+        text-align: center;
+    }
+
+    .filter-form select,
+    .filter-form button {
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        border: none;
+    }
+
+    .filter-form button {
+        background-color: #00fff2;
+        color: #0e1124;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .filter-form button:hover {
+        background-color: #bb86fc;
+        color: white;
+    }
+
+    /* Media query for contact */
+
+    .contact {
+        width: 100%;
+        height: auto;
+        padding: 2rem 1rem;
+        border-radius: 1rem;
+    }
+
+    .contact h2 {
+        font-size: 2.4rem;
+        margin: 1.5rem 0;
+    }
+
+    .contact p {
+        font-size: 1.6rem;
+        margin: 1rem 0 2rem 0;
+        line-height: 2.6rem;
+    }
+
+    .contact ul {
+        padding: 0;
+    }
+
+    .contact ul li {
+        font-size: 1.6rem;
+        margin: 1rem 0;
+        word-break: break-word;
+    }
+
+    .contact ul li a,
+    .content p a {
+        word-wrap: break-word;
+        font-size: 1.6rem;
+    }
+
+    /* Media query for login  */
+
+    .login-container {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .login-box {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 2rem 1.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 0.5em rgba(0,0,0,0.2);
+    }
+
+    .login-box h2 {
+        font-size: 2.4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .border-box input {
+        width: 100%;
+        font-size: 1.6rem;
+        height: 3.6rem;
+    }
+
+    .invalid {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .post-container {
+        height: auto;
+        padding: 1rem;
+    }
+
+    .post-box {
+        padding: 2rem;
+        margin-top: 2rem;
+    }
+
+    /* media query for addPost*/
+
+    .title input,
+    .about textarea {
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+
+    /* Media query for preview Post */
+
+    .button-container {
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 1rem 0;
+    }
+
+    .button-container button,
+    .button-container form button {
+        width: 100%;
+        height: 4rem;
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+
+    .blog h2 {
+        font-size: 2rem;
+        margin-top: -2rem;
+    }
+
+    /* MEDIA QUERY FOR FOOTER */
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem;
+    }
+
+    footer p {
+        margin: 1rem 0;
+    }
+
+    .social img {
+        width: 3.5rem;
+        height: 3.5rem;
+        margin: 0.5rem;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #0e1124;
+    }
+}

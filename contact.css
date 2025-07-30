@@ -1,0 +1,109 @@
+/*Fonts*/
+h2{
+    font-family: 'Kanit';
+}
+h1{
+    font-family: 'Comfortaa';
+}
+p{
+    font-family: 'Madimi One';
+}
+/*Header portion of the page*/
+.top{
+    display: flex;
+    justify-content: space-between; /* aligns items horizontally */
+    background-color: rgb(14, 17, 36);
+    align-items: center; /* aligns items vertically */
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    height: 10rem;
+    border-bottom: solid 0.2rem grey;
+}
+.top h1{
+    font-size: 4rem;
+    margin: 2rem;
+    margin-left: 16rem;
+    color: rgb(0, 255, 242)
+}
+.top a{
+    text-decoration: none;
+}
+.top a:hover h1 {
+    color: rgb(187, 134, 252); 
+}
+
+/*Gap is used to define the spacing between the child elements of ul
+which are the li*/
+nav ul{
+    font-size: 1.8rem;
+    display: flex;
+    list-style-type: none;
+    gap: 4rem;
+    margin-right: 5rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 255, 242);
+}
+nav ul li a:hover {
+    color: rgb(187, 134, 252);  
+}
+
+
+/* Main Section */
+main{
+    background-color: rgb(14, 17, 36);
+    color: rgb(173, 216, 230);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+}
+
+.contact{
+    text-align: center;
+    border-radius: 0.3rem;
+    margin-bottom: 2rem;
+    background-color: rgb(20, 24, 48);
+    width: 70%;
+    max-width: 70rem;
+    height: 60%;
+}
+
+.contact h2{
+    font-size: 3rem;
+    margin: 2rem;
+    color: rgb(0, 255, 242);
+}
+
+.contact p{
+    font-size: 1.8rem;
+    margin: 2rem;
+    color: rgb(173, 216, 230);
+    margin-bottom: 3rem;
+}
+
+.contact ul{
+    list-style: none;
+    font-size: 2rem;
+}
+
+.contact ul li a{
+    text-decoration: none;
+    color: rgb(255, 0, 191);
+}
+
+.contact ul li a:hover{
+    color: rgb(0, 134, 252);
+}
+
+.content p a{
+    text-decoration: none;
+    color: rgb(255, 0, 191);
+    font-weight: bold;
+}
+
+.content p a:hover{
+    color: rgb(0, 134, 252);
+}

@@ -1,0 +1,165 @@
+/*Fonts for the page*/
+h2{
+    font-family: 'Kanit';
+}
+h1{
+    font-family: 'Comfortaa';
+}
+p{
+    font-family: 'Madimi One';
+}
+/*header portion*/
+.top{
+    display: flex;
+    justify-content: space-between; /* aligns items horizontally */
+    background-color: rgb(14, 17, 36);
+    align-items: center; /* aligns items vertically */
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    height: 10rem;
+    border-bottom: solid 0.2rem grey;
+}
+.top h1{
+    font-size: 4rem;
+    margin: 2rem;
+    margin-left: 16rem;
+    color: rgb(0, 255, 242)
+}
+.top a{
+    text-decoration: none;
+}
+.top a:hover h1 {
+    color: rgb(187, 134, 252); 
+}
+
+/*Gap is used to define the spacing between the child elements of ul
+which are the li*/
+nav ul{
+    font-size: 1.8rem;
+    display: flex;
+    list-style-type: none;
+    gap: 4rem;
+    margin-right: 5rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 255, 242);
+}
+nav ul li a:hover {
+    color: rgb(187, 134, 252);  
+}
+
+/* Main content styling */
+
+.blog-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(14, 17, 36);
+    color: rgb(173, 216, 230);
+    min-height: 56rem;
+    border-bottom: solid 0.2rem grey;
+}
+
+.posts-container{
+    flex: 3;
+    background-color: rgb(20, 24, 48);
+    padding: 2rem;
+    border-radius: 2rem;
+    max-width: 70%;
+    margin: 2rem;
+}
+
+.post-header{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.2rem;
+}
+
+.date{
+    display: inline-block;
+    margin-right: 1rem;
+    color: rgb(187, 134, 252);
+}
+
+.blog{
+    background-color: rgba(34, 162, 153, 0.088);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.blog h2{
+    color: rgb(0, 255, 242);
+    margin-top: -3rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.content {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    color: rgb(135, 201, 233);
+}
+
+.button-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.button-container form button{
+    cursor: pointer;
+    background-color: rgb(0, 255, 242);
+    color: rgb(14, 17, 36);
+    font-weight: bold;
+    font-family: 'Madimi One';
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.button{
+    display: block;
+    text-decoration: none;
+    background-color: rgb(0, 255, 242);
+    color: rgb(14, 17, 36);
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 12rem;
+    height: 6rem;
+    line-height: 6rem; /*controls vertical spacing of text, so height of each line*/
+}
+
+.button-container form button:hover{
+    background-color: rgb(187, 134, 252);
+}
+
+
+
+/*footer portion*/
+footer{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 24, 48); 
+
+}
+footer p{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    color: rgb(173, 216, 230); 
+
+}
+.social img{
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    margin-right: 8rem;
+}
+
+

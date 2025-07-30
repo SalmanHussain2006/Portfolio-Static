@@ -1,0 +1,120 @@
+/*Fonts*/
+h2{
+    font-family: 'Kanit';
+}
+h1{
+    font-family: 'Comfortaa';
+}
+p{
+    font-family: 'Madimi One';
+}
+/*header portion*/
+.top{
+    display: flex;
+    justify-content: space-between; /* aligns items horizontally */
+    background-color: rgb(14, 17, 36);
+    align-items: center; /* aligns items vertically */
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    height: 10rem;
+    border-bottom: solid 0.2rem grey;
+}
+.top h1{
+    font-size: 4rem;
+    margin: 2rem;
+    margin-left: 16rem;
+    color: rgb(0, 255, 242)
+}
+.top a{
+    text-decoration: none;
+}
+.top a:hover h1 {
+    color: rgb(187, 134, 252); 
+}
+
+/*Gap is used to define the spacing between the child elements of ul
+which are the li*/
+nav ul{
+    font-size: 1.8rem;
+    display: flex;
+    list-style-type: none;
+    gap: 4rem;
+    margin-right: 5rem;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 255, 242);
+}
+nav ul li a:hover {
+    color: rgb(187, 134, 252);  
+}
+
+
+/*Main content portion*/
+#projects{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(14, 17, 36);
+    color: rgb(173, 216, 230);
+    border-bottom: solid 0.2rem grey;
+    align-items: center;
+    padding: 2rem;
+    min-height: 52rem;
+}
+
+.project{
+    background-color: rgb(20, 24, 48);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 90rem;
+}
+
+#projects h2{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.project h3{
+    font-size: 2rem;
+    color: rgb(0, 255, 242);
+    margin-bottom: 1rem;
+}
+
+.project p{
+    font-size: 1.8rem;
+    color: rgb(135, 201, 223);
+    margin-bottom: 1rem;
+}
+
+.project a{
+    text-decoration: none;
+    color: rgb(255, 0, 217);
+    font-size: 1.8rem;
+}
+
+.project a:hover{
+    color: rgb(187, 134, 252);
+}
+
+/*Footer*/
+footer{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(20, 24, 48); 
+
+}
+footer p{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 1.4rem;
+    color: rgb(173, 216, 230); 
+
+}
+.social img{
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    margin-right: 8rem;
+}
