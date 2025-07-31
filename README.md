@@ -1,4 +1,4 @@
-# Salman’s FuLL-Stack Portfolio Website 💻
+# Salman’s Full-Stack Portfolio Website 💻
 
 ## Description 📝
 This portfolio project showcases my journey as a developer and Computer Science student at Queen Mary University of London. Built using HTML, CSS, JavaScript, and PHP, the site offers a dynamic and responsive experience, highlighting my skills, projects, and achievements in one place.
